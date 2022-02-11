@@ -1,6 +1,7 @@
-<h1>Player one: <%= @player_01.name %> vs Player two: <%= @player_02.name %></h1>
+<h1>Player one: <%= @player_01 %> vs Player two: <%= @player_02 %></h1>
 
-<%= @player_02.name %>: <%= @player_02.hit_points %>HP
+<%= @player_01 %> has <%= $player_01.hit_points %>HP
+<%= @player_02 %> has <%= $player_02.hit_points %>HP
 
 <form action="/attack">
 <button type="submit">Attack</button>
